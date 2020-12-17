@@ -15,7 +15,7 @@ $(".play_button").click(function(){
   window.location='index.html';
 });
 
-$(document).keypress(function(){
+$(document).on('keypress click',function(){
   if(!started)
   {
     $("#level-title").text("Level "+level);
