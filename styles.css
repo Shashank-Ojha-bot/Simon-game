@@ -1,0 +1,118 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  margin-bottom: 3%;
+  color: #FEF2BF;
+}
+
+#level-instruction{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  color: #FEF2BF;
+  margin-top: 0.25%;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.container-instruction{
+  background-color:#f0f8ff;
+  display: block;
+  width: 50%;
+  margin: auto;
+  text-align: left;
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.list{
+  font-size: 1.5rem;
+  margin: 3%
+}
+
+.list-parent{
+  margin: 2%;
+  padding: 2%;
+  padding-left: 3%;
+}
+
+.paragraph{
+  margin-left: 4%;
+  font-size: 2rem;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.instruction{
+  margin-top: 0px;
+  margin-bottom: 10px;
+  display: inline-block;
+  height: 30px;
+  width: 110px;
+  /* border: 5px solid black; */
+  /* border-radius: 20%; */
+  font-family:fantasy;
+  /* font-weight: bolder; */
+  font-size: 1.1rem;
+}
+.play_button{
+  margin-top: 0px;
+  margin-bottom: 10px;
+  display: inline-block;
+  height: 30px;
+  width: 70px;
+  /* border: 5px solid black; */
+  /* border-radius: 20%; */
+  font-family:sans-serif;
+  font-weight:bolder;
+  font-size: 1rem;
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 0.75rem;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
